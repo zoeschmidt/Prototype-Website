@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Fedora Page</title>
+</head>
+<body onload='setName()'>
+    
+    
+      <img src="../images/fedora_banner.png" width="1000">
+    
+    <nav>
+            <a href='../index.html' id="navi">Home</a>
+        <a href="../products/product_list.html" id="navi">Products</a>
+        <a href="../files/cart.html" id="navi">Cart</a>
+        <a href="../files/faq.html" id="navi">FAQ</a>
+        <a href="../files/about.html"id="navi" >About</a>
+        </nav>
+    
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <h2 id='prod_name' class="Fedora" >Fedoras!</h2>
+    
+     <img src="../images/fedora.png" alt="Fedora" height="400" width="500">
+    <p>Look <i>stylish</i> in this black colored hat that has an indented crown. This hat is made from wool felt, the brim is 2.5 inches wide. It comes with a thick darker ribbon, which rests above the rim for style. On the side of the black ribbon you can add a feather or almost anything you want for a persoanl touch to make this hat your own!</p>
+    
+      
+    <p>                                                                                                                                                                                                                                                                                            </p>
+     <p>
+    <label for='option_1'>Choose a size</label>
+    <select id='option_1' class="Fedora Size">
+        <option value="XS">Xtra Small (21-22 inches)</option>
+        <option value="S">Small (22-23 inches)</option>
+        <option value="M">Medium (23-23 1/2 inches)</option>
+        <option value="L">Large (23 1/2 - 24 inches)</option>
+        <option value="XL">Xtra Large (24+ inches)</option>
+        </select>
+    </p>
+    
+    <p>
+    <label for='option_2'>Choose a color</label>
+    <select id='option_2' class="Fedora Color">
+        <option value="Black">Black</option>
+        <option value="Brown">Brown</option>
+        <option value="Navy">Navy Blue</option>
+        <option value="Grey">Grey</option>
+        </select>
+    </p>
+              <p>                                                                                                                                                                                                                                                                         </p>
+    <p>
+    <label for='option_3'>Choose a quantity</label>
+    <select id='option_3' class="Fedora Quantity">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        </select>
+    </p>
+    
+    
+    <label for='price'>Price:</label>
+        <h2 style="color:blue;" id='price' class='Cool Price'>14.99</h2>
+        
+
+
+
+        
+         <p>
+        <label for='addToCart'>Add to Cart</label>
+        <button id='addToCart' onclick="setProdOpts()">Add</button>
+    
+ 
+
+    <p>
+        <a href="../files/cart.html">Go to Cart</a>
+    </p>
+    <p><a href="product_list.html">Continue Shopping</a></p>
+    
+    <script src="../scripts/main.js"></script> 
+    
+    </body>
+</html>

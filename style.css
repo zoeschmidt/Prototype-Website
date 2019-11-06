@@ -1,0 +1,97 @@
+body { background-color: lightcyan;
+     }
+h1 {
+  color: dimgray;
+ font-size: 50px;
+ font-family: cursive;
+}
+h2{
+    color: gray;
+    font-size: 35px;
+    font-family: cursive;
+}
+h3{
+    color: gray;
+    font-size: 20px;
+}
+ 
+p {
+  color: black;
+transform-origin: center;
+    align-content: center;
+    font-size: 18px;
+}
+
+span {
+ font-size: 18px;
+ color: blue;    
+}
+
+dl{
+    font-size: 18px;
+    color: crimson;
+}
+
+ol{
+    font-size: 18px;
+}
+#f{
+    font-family: sans-serif;
+    color: red;
+}
+#b{
+    font-family: sans-serif;
+    color: coral;
+}
+#be{
+    font-family: sans-serif;
+    color: deeppink;
+}
+#ba{
+    font-family: sans-serif;
+    color: lightpink;
+}
+#c{
+    font-family: sans-serif;
+    color: orange;
+}
+#bo{
+    font-family: sans-serif;
+    color: yellow;
+}
+#fe{
+    font-family: sans-serif;
+    color: greenyellow;
+}
+#t{
+    font-family: sans-serif;
+    color: green;
+}
+#s{
+    font-family: sans-serif;
+    color: cornflowerblue;
+}
+#fl{
+    font-family: sans-serif;
+    color: blue;
+}
+#sa{
+    font-family: sans-serif;
+    color: mediumpurple;
+}
+#p{
+    font-family: sans-serif;
+    color: purple;
+}
+#q1{
+    font-family: sans-serif;
+    color: midnightblue;
+}
+#q2{
+    font-family: sans-serif;
+    color: gray;
+}
+#navi{
+    font-family: sans-serif;
+    font-size: 22px;
+}

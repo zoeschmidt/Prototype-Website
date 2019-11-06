@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Beret Page</title>
+</head>
+<body onload='setName()'>
+    
+      <img src="../images/beret_banner.png" width="1000">
+    
+    <link rel="stylesheet" href="../css/style.css">
+    
+  <nav>
+            <a href='../index.html' id="navi">Home</a>
+        <a href="../products/product_list.html" id="navi">Products</a>
+        <a href="../files/cart.html" id="navi">Cart</a>
+        <a href="../files/faq.html" id="navi">FAQ</a>
+        <a href="../files/about.html"id="navi" >About</a>
+        </nav>
+    
+    <h2 id='prod_name' class="Beret" >Berets!</h2>
+    
+    <img src="../images/beret.png" alt="Girl wearing a beret hat" height="400" width="500">
+    
+    <p>This a popular <i>french</i> hat, perfect for a trip to Paris! It is also popular all over Europe, and can be part of a uniform. However, anyone can wear it for style. It's made of soft wool and has a flat crown to fit snugly on your head.</p>
+    
+ <p>
+    <label for='option_1'>Choose a size</label>
+    <select id='option_1' class="Beret Size">
+        <option value="XS">Xtra Small (21-22 inches)</option>
+        <option value="S">Small (22-23 inches)</option>
+        <option value="M">Medium (23-23 1/2 inches)</option>
+        <option value="L">Large (23 1/2 - 24 inches)</option>
+        <option value="XL">Xtra Large (24+ inches)</option>
+        </select>
+    </p>
+    
+    <p>
+    <label for='option_2'>Choose a color</label>
+    <select id='option_2' class="Beret Color">
+        <option value="Black">Black</option>
+        <option value="Navy">Navy Blue</option>
+        <option value="Grey">Grey</option>
+        </select>
+    </p>
+              <p>                                                                                                                                                                                                                                                                         </p>
+    <p>
+    <label for='option_3'>Choose a quantity</label>
+    <select id='option_3' class="Beret Quantity">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        </select>
+    </p>
+    
+    
+    <label for='price'>Price:</label>
+        <h2 style="color:blue;" id='price' class='Cool Price'>14.99</h2>
+        
+
+
+
+        
+         <p>
+        <label for='addToCart'>Add to Cart</label>
+        <button id='addToCart' onclick="setProdOpts()">Add</button>
+    
+ 
+
+    <p>
+        <a href="../files/cart.html">Go to Cart</a>
+    </p>
+    <p><a href="product_list.html">Continue Shopping</a></p>
+    
+    <script src="../scripts/main.js"></script> 
+    
+    </body>
+</html>
